@@ -7,7 +7,9 @@ class DmMonoNerdFont < Formula
   sha256 "1bd78369eb35c7a735d6269f6d6b36b41bebabdb540c0f291e8babd83fbe6f6f"
 
   def install
-    (share / "fonts").install Dir["*"]
+    cd "dm-mono-nerd-font-1.0.0" do
+      (share/"fonts").install Dir["*.ttf"]
+    end
   end
 
   def post_install
