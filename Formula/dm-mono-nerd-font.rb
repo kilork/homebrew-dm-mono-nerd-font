@@ -12,7 +12,8 @@ class DmMonoNerdFont < Formula
 
   def caveats
     <<~EOS
-      To install fonts to ~/Library/Fonts, run:
+      Fonts are installed to #{prefix}.
+      To make them available system-wide, copy to ~/Library/Fonts:
         cp #{prefix}/*.ttf ~/Library/Fonts/
     EOS
   end
