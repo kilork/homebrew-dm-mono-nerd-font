@@ -8,13 +8,11 @@ class DmMonoNerdFont < Formula
 
   def install
     system "tar", "-xzf", cached_download, "--strip-components=1", "-C", prefix
-  end
-
-  def post_install
+    
     ohai "Installing fonts to ~/Library/Fonts..."
-    font_dir = Pathname.new(ENV["HOME"])/"Library/Fonts"
+    font_dir = HOMEBREW_PREFIX/"Library/Fonts"
     font_dir.mkpath
-    Dir[prefix/"*.ttf"].each { |f| FileUtils.cp(f, font_dir) }
+    system "cp", *Dir[prefix/"*.ttf"], font_dir.to_s
   end
 
   test do
