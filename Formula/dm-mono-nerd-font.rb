@@ -7,16 +7,13 @@ class DmMonoNerdFont < Formula
   sha256 "1bd78369eb35c7a735d6269f6d6b36b41bebabdb540c0f291e8babd83fbe6f6f"
 
   def install
-    parent = File.dirname(share/"fonts")
-    extracted = "dm-mono-nerd-font-1.0.0"
-    system "tar", "-xzf", cached_download.relative_path_from(parent), "-C", parent, "--strip-components=1", extracted
-    (share/"fonts").install Dir["#{extracted}/*.ttf"]
+    system "tar", "-xzf", cached_download, "--strip-components=1", "-C", prefix
   end
 
   def post_install
     ohai "Installing fonts to ~/Library/Fonts..."
     (HOMEBREW_PREFIX / "Library/Fonts").mkdir_p
-    (HOMEBREW_PREFIX / "Library/Fonts").cp Dir[share/"fonts/*"]
+    (HOMEBREW_PREFIX / "Library/Fonts").cp Dir[prefix/"*.ttf"]
   end
 
   test do
