@@ -1,8 +1,8 @@
 cask "dm-mono-nerd-font" do
   version "1.0.0"
-  sha256 "1bd78369eb35c7a735d6269f6d6b36b41bebabdb540c0f291e8babd83fbe6f6f"
+  sha256 "a6e0f595ba4299d4bc91498423be72be8025dee4d6bb3a2429a42b3339d3a021"
 
-  url "https://github.com/kilork/dm-mono-nerd-font/releases/download/v#{version}/dm-mono-nerd-font-#{version}.tar.gz"
+  url "https://github.com/kilork/dm-mono-nerd-font/releases/download/v1.0.0/dm-mono-nerd-font-1.0.0.tar.gz"
   name "DM Mono Nerd Font"
   homepage "https://github.com/kilork/dm-mono-nerd-font"
 
@@ -18,6 +18,4 @@ cask "dm-mono-nerd-font" do
   font "DMMonoNerdFont-Medium.ttf"
   font "DMMonoNerdFont-MediumItalic.ttf"
   font "DMMonoNerdFont-Regular.ttf"
-
-  # No zap stanza required
 end
