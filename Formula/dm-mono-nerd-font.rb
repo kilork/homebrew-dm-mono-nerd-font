@@ -1,10 +1,10 @@
-class DmMonoNerdFont
+class DmMonoNerdFont < Formula
   desc "DM Mono with Nerd Fonts glyphs"
   homepage "https://github.com/kilork/dm-mono-nerd-font"
-  version "1.0.0"
+  version "{{VERSION}}"
 
-  url "https://github.com/kilork/dm-mono-nerd-font/releases/download/v1.0.0/dm-mono-nerd-font-1.0.0.tar.gz"
-  sha256 "1bd78369eb35c7a735d6269f6d6b36b41bebabdb540c0f291e8babd83fbe6f6f"
+  url "https://github.com/kilork/dm-mono-nerd-font/releases/download/v{{VERSION}}/dm-mono-nerd-font-{{VERSION}}.tar.gz"
+  sha256 "{{SHA256}}"
 
   def install
     font_dir = Pathname.new(ENV["HOME"])/"Library/Fonts"
