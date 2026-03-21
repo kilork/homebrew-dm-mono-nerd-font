@@ -7,7 +7,7 @@ class DmMonoNerdFont < Formula
   sha256 "1bd78369eb35c7a735d6269f6d6b36b41bebabdb540c0f291e8babd83fbe6f6f"
 
   def install
-    ( HOMEBREW_PREFIX / "Library/Fonts" ).install Dir["*"]
+    prefix.install Dir["*"]
   end
 
   test do
