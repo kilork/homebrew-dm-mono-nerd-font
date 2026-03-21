@@ -12,8 +12,13 @@ class DmMonoNerdFont < Formula
 
   def post_install
     ohai "Installing fonts to ~/Library/Fonts..."
-    (HOMEBREW_PREFIX / "Library/Fonts").mkdir_p
-    (HOMEBREW_PREFIX / "Library/Fonts").cp Dir[prefix/"*.ttf"]
+    font_dir = Pathname.new(ENV["HOME"])/"Library/Fonts"
+    font_dir.mkpath
+    font_dir_cp = Pathname.new(HOMEBREW_PREFIX)/"Library/Fonts"
+    font_dir_cp.mkpath
+    font_dir_cp.children.each { |f| FileUtils.rm(f) } rescue nil
+    font_dir.children.each { |f| FileUtils.rm(f) } rescue nil
+    font_dir_cp.install Dir[prefix/"*.ttf"]
   end
 
   test do
