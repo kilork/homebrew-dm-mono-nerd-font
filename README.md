@@ -5,7 +5,6 @@ Homebrew Cask for DM Mono Nerd Font.
 ## Install
 
 ```bash
-brew tap kilork/dm-mono-nerd-font
 brew install --cask kilork/dm-mono-nerd-font/dm-mono-nerd-font
 ```
 
