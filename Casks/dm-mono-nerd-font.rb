@@ -1,8 +1,8 @@
 cask "dm-mono-nerd-font" do
-  version "1.0.0"
-  sha256 "a6e0f595ba4299d4bc91498423be72be8025dee4d6bb3a2429a42b3339d3a021"
+  version "3.4.0"
+  sha256 "9231ee02c6b593daa0a2f2c4818c623abbb195b19f30479f06d2b7bec83209be"
 
-  url "https://github.com/kilork/dm-mono-nerd-font/releases/download/v1.0.0/dm-mono-nerd-font-1.0.0.tar.gz"
+  url "https://github.com/kilork/dm-mono-nerd-font/releases/download/v3.4.0/dm-mono-nerd-font-3.4.0.tar.gz"
   name "DM Mono Nerd Font"
   homepage "https://github.com/kilork/dm-mono-nerd-font"
 
