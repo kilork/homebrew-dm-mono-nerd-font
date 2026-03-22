@@ -24,18 +24,12 @@ jobs:
           printf '  url "https://github.com/kilork/dm-mono-nerd-font/releases/download/v%s/dm-mono-nerd-font-%s.tar.gz"\n' "$VERSION" "$VERSION" >> Casks/dm-mono-nerd-font.rb
           printf '  name "DM Mono Nerd Font"\n' >> Casks/dm-mono-nerd-font.rb
           printf '  homepage "https://github.com/kilork/dm-mono-nerd-font"\n\n' >> Casks/dm-mono-nerd-font.rb
-          printf '  font "dm-mono-nerd-font/DM Mono Italic Nerd Font Complete.ttf"\n' >> Casks/dm-mono-nerd-font.rb
-          printf '  font "dm-mono-nerd-font/DM Mono Light Italic Nerd Font Complete.ttf"\n' >> Casks/dm-mono-nerd-font.rb
-          printf '  font "dm-mono-nerd-font/DM Mono Light Nerd Font Complete.ttf"\n' >> Casks/dm-mono-nerd-font.rb
-          printf '  font "dm-mono-nerd-font/DM Mono Medium Italic Nerd Font Complete.ttf"\n' >> Casks/dm-mono-nerd-font.rb
-          printf '  font "dm-mono-nerd-font/DM Mono Medium Nerd Font Complete.ttf"\n' >> Casks/dm-mono-nerd-font.rb
-          printf '  font "dm-mono-nerd-font/DM Mono Regular Nerd Font Complete.ttf"\n' >> Casks/dm-mono-nerd-font.rb
-          printf '  font "dm-mono-nerd-font/DMMonoNerdFont-Italic.ttf"\n' >> Casks/dm-mono-nerd-font.rb
-          printf '  font "dm-mono-nerd-font/DMMonoNerdFont-Light.ttf"\n' >> Casks/dm-mono-nerd-font.rb
-          printf '  font "dm-mono-nerd-font/DMMonoNerdFont-LightItalic.ttf"\n' >> Casks/dm-mono-nerd-font.rb
-          printf '  font "dm-mono-nerd-font/DMMonoNerdFont-Medium.ttf"\n' >> Casks/dm-mono-nerd-font.rb
-          printf '  font "dm-mono-nerd-font/DMMonoNerdFont-MediumItalic.ttf"\n' >> Casks/dm-mono-nerd-font.rb
-          printf '  font "dm-mono-nerd-font/DMMonoNerdFont-Regular.ttf"\n' >> Casks/dm-mono-nerd-font.rb
+          printf '  font "DMMonoNerdFont-Italic.ttf"\n' >> Casks/dm-mono-nerd-font.rb
+          printf '  font "DMMonoNerdFont-Light.ttf"\n' >> Casks/dm-mono-nerd-font.rb
+          printf '  font "DMMonoNerdFont-LightItalic.ttf"\n' >> Casks/dm-mono-nerd-font.rb
+          printf '  font "DMMonoNerdFont-Medium.ttf"\n' >> Casks/dm-mono-nerd-font.rb
+          printf '  font "DMMonoNerdFont-MediumItalic.ttf"\n' >> Casks/dm-mono-nerd-font.rb
+          printf '  font "DMMonoNerdFont-Regular.ttf"\n' >> Casks/dm-mono-nerd-font.rb
           printf 'end\n' >> Casks/dm-mono-nerd-font.rb
 
       - name: Commit and push
