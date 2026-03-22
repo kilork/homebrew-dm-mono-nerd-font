@@ -33,6 +33,8 @@ jobs:
           printf 'end\n' >> Casks/dm-mono-nerd-font.rb
 
       - name: Commit and push
+        env:
+          VERSION: ${{ github.event.client_payload.version }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
