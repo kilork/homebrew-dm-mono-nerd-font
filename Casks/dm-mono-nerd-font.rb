@@ -6,12 +6,6 @@ cask "dm-mono-nerd-font" do
   name "DM Mono Nerd Font"
   homepage "https://github.com/kilork/dm-mono-nerd-font"
 
-  font "DM Mono Italic Nerd Font Complete.ttf"
-  font "DM Mono Light Italic Nerd Font Complete.ttf"
-  font "DM Mono Light Nerd Font Complete.ttf"
-  font "DM Mono Medium Italic Nerd Font Complete.ttf"
-  font "DM Mono Medium Nerd Font Complete.ttf"
-  font "DM Mono Regular Nerd Font Complete.ttf"
   font "DMMonoNerdFont-Italic.ttf"
   font "DMMonoNerdFont-Light.ttf"
   font "DMMonoNerdFont-LightItalic.ttf"
