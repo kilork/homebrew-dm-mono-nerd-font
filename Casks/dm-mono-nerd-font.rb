@@ -1,21 +1,15 @@
 cask "dm-mono-nerd-font" do
   version "3.4.0"
-  sha256 "8e72ebd9d97b8b73110dfa34c503c7fedfde029ca15104631b4fc8b3fcf0be2a"
+  sha256 "38cefb6422ae2092d06bd2ad52062473b16e935b56c150573edc7c70145bd211"
 
   url "https://github.com/kilork/dm-mono-nerd-font/releases/download/v3.4.0/dm-mono-nerd-font-3.4.0.tar.gz"
   name "DM Mono Nerd Font"
   homepage "https://github.com/kilork/dm-mono-nerd-font"
 
-  font "dm-mono-nerd-font/DM Mono Italic Nerd Font Complete.ttf"
-  font "dm-mono-nerd-font/DM Mono Light Italic Nerd Font Complete.ttf"
-  font "dm-mono-nerd-font/DM Mono Light Nerd Font Complete.ttf"
-  font "dm-mono-nerd-font/DM Mono Medium Italic Nerd Font Complete.ttf"
-  font "dm-mono-nerd-font/DM Mono Medium Nerd Font Complete.ttf"
-  font "dm-mono-nerd-font/DM Mono Regular Nerd Font Complete.ttf"
-  font "dm-mono-nerd-font/DMMonoNerdFont-Italic.ttf"
-  font "dm-mono-nerd-font/DMMonoNerdFont-Light.ttf"
-  font "dm-mono-nerd-font/DMMonoNerdFont-LightItalic.ttf"
-  font "dm-mono-nerd-font/DMMonoNerdFont-Medium.ttf"
-  font "dm-mono-nerd-font/DMMonoNerdFont-MediumItalic.ttf"
-  font "dm-mono-nerd-font/DMMonoNerdFont-Regular.ttf"
+  font "DMMonoNerdFont-Italic.ttf"
+  font "DMMonoNerdFont-Light.ttf"
+  font "DMMonoNerdFont-LightItalic.ttf"
+  font "DMMonoNerdFont-Medium.ttf"
+  font "DMMonoNerdFont-MediumItalic.ttf"
+  font "DMMonoNerdFont-Regular.ttf"
 end
