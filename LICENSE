@@ -1,0 +1,11 @@
+DM Mono Nerd Font Homebrew Cask
+Copyright (c) 2024 Alexander Korolev
+
+This package contains a Homebrew Cask for installing DM Mono Nerd Font.
+
+The fonts are licensed under the SIL Open Font License 1.1.
+See: https://scripts.sil.org/ofl
+
+Original font:
+- DM Mono by Colophon Foundry / DeepMind (SIL Open Font License 1.1)
+- Nerd Fonts by Ryan L McIntyre (SIL Open Font License 1.1 + MIT)
