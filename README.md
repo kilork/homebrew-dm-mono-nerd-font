@@ -10,19 +10,15 @@ brew install --cask kilork/dm-mono-nerd-font/dm-mono-nerd-font
 
 ## Fonts
 
-This cask installs the following fonts:
-- DMMono Nerd Font Italic
-- DMMono Nerd Font Light
-- DMMono Nerd Font Light Italic
-- DMMono Nerd Font Medium
-- DMMono Nerd Font Medium Italic
-- DMMono Nerd Font Regular
-- DM Mono Italic Nerd Font Complete
-- DM Mono Light Italic Nerd Font Complete
-- DM Mono Light Nerd Font Complete
-- DM Mono Medium Italic Nerd Font Complete
-- DM Mono Medium Nerd Font Complete
-- DM Mono Regular Nerd Font Complete
+All fonts belong to family **DMMono Nerd Font** with the following styles:
+- Regular
+- Light
+- Medium
+- Italic
+- Light Italic
+- Medium Italic
+
+Use family name `DMMono Nerd Font` in your terminal emulator, then apply styles via font-weight and italic settings.
 
 ## Source
 
